@@ -1,0 +1,41 @@
+{
+  "name": "angular-seed",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "homepage": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "angular-bootstrap": "0.11.2",
+    "bootstrap": "3.2.0",
+    "angular-animate": "1.3.10",
+    "angular-touch": "1.3.0",
+    "angular": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "angular-loader": "~1.5.0",
+    "angular-mocks": "~1.5.0",
+    "html5-boilerplate": "^5.3.0",
+    "highcharts": "4.0.4",
+    "highcharts-ng": "0.0.7"
+  },
+  "ignore":[
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests",
+    "**/*.spec.js",
+    "build",
+    "karma",
+    "protractor",
+    "reports",
+    "build.config.js",
+    "Gruntfile.js",
+    "module.prefix",
+    "module.suffix",
+    "npm-debug.log",
+    "package.json",
+    "proxy.js"
+  ]
+}
