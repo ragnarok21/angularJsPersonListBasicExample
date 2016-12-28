@@ -17,7 +17,8 @@ angular.module("angularApp")
             getList:getList,
             setList:setList,
             insert:insert,
-            length:length
+            length:length,
+            remove:remove
         }
 
         return result;
@@ -32,12 +33,13 @@ angular.module("angularApp")
 
         function insert(data){
             list.personas.push(data);
-            var newList = list;
-            setList(newList);
         }
 
         function length(){
             return list.personas.length;
         }
 
+        function remove(index){
+            list.personas.splice(index,1);
+        }
     });

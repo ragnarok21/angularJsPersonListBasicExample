@@ -1,6 +1,7 @@
-<div ng-controller="listaPersonas">
-    <ul ng-repeat="persona in list.personas">
-        <li>{{persona.nombre}} {{persona.apellido}}</li>
-    </ul>
-
-</div>
+<table ng-controller="listaPersonas" class="table">
+    <tr ng-repeat="persona in list.personas">
+        <td>{{persona.nombre}}</td>
+        <td>{{persona.apellido}}</td>
+        <td><button ng-click="remove(index)" value="Eliminar">Eliminar</button></td>
+    </tr>
+</table>
